@@ -19,23 +19,24 @@
     ],
     "ios": {
       "supportsTablet": true
-     
     },
     "android": {
-    
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF",
-
         "config": {
-      
-          "googleMobileAdsAppId": "ca-app-pub-8897596822684398~3142289927" 
+          "googleMobileAdsAppId": "ca-app-pub-8897596822684398~3142289927"
         }
-      }
-     
+      },
+      "package": "com.saba_umer.NoteTakingApp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "13dc9421-428c-4595-b005-466494619763"
+      }
     }
   }
 }

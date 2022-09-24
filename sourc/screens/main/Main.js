@@ -22,7 +22,7 @@ const Main = (props) => {
 
     const loadData = () => {
         let keys = []
-        const querySnapshot = await getDocs(collection(db, email));
+        const querySnapshot =getDocs(collection(db, email));
         querySnapshot.forEach((doc) => {
             // doc.data() is never undefined for query doc snapshots
             console.log(doc.id, " => ", doc.data());
