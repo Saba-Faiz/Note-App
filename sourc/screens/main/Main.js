@@ -28,7 +28,8 @@ const Main = (props) => {
             console.log(doc.id, " => ", doc.data());
             keys.push(doc.data)
         });
-        setData(keys)
+        setData(keys)/// second commit
+
     }
 
     // const loadData = async () => {
